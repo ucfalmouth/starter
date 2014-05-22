@@ -40,6 +40,22 @@ prose:
               value: "pears"
             - name: "Mangos"
               value: "mangos"
+      - name: "lead"
+        field:
+          element: "select"
+          label: "Who?"
+          placeholder: "Project lead is..."
+          options:
+            - name: "AS"
+              value: "as"
+            - name: "AM"
+              value: "am"
+            - name: "DH"
+              value: "dh"
+            - name: "MW"
+              value: "mw"
+            - name: "PS"
+              value: "ps"              
     _posts/static:
       - name: "layout"
         field:
